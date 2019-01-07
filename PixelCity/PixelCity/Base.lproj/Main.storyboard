@@ -113,6 +113,20 @@
                                     <constraint firstItem="QXd-Kt-hg6" firstAttribute="centerY" secondItem="WK3-0Y-e9D" secondAttribute="centerY" id="xyv-Br-ume"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TitleLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVP-5R-RNB">
+                                <rect key="frame" x="16" y="551" width="343" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PhotoCredit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTx-ND-7p5">
+                                <rect key="frame" x="16" y="585" width="343" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -126,7 +140,9 @@
                         <viewLayoutGuide key="safeArea" id="XHe-vb-e3E"/>
                     </view>
                     <connections>
+                        <outlet property="photoCredit" destination="yTx-ND-7p5" id="SC8-Wg-mwK"/>
                         <outlet property="popImageView" destination="oRP-9k-mlJ" id="Psu-4e-eQJ"/>
+                        <outlet property="titleLabel" destination="mVP-5R-RNB" id="wSn-Bn-KTI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="asa-Qe-pif" userLabel="First Responder" sceneMemberID="firstResponder"/>
